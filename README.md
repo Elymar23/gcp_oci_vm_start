@@ -58,13 +58,13 @@ GCP and OCI step by step tutorial
 - Both require you to choose: which Machine type
 -- OS image and Storage
 ### Differences
-Networking setup:
-- GCP has networking pre-configured
-- - GCP assigns public IP 
-- OCI makes you set up VCNs and subnets, which feels more complicated
-- OCI requires a public subnet
-- GCP lets you access SSH with your Google account directly.
-- OCI requires uploading or generating an SSH key.
+#### Networking setup:
+  - GCP has networking pre-configured
+  - GCP assigns public IP
+  - GCP lets you access SSH with your Google account directly.
+  - OCI makes you set up VCNs and subnets, which feels more complicated
+  - OCI requires a public subnet
+  - OCI requires uploading or generating an SSH key.
 ### Preference 
 - I think for  beginners: GCP is easier because of the automatic setup and Google account integration,
 	but for someone who wants to have more control, OCI is is a better option.
