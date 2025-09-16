@@ -8,8 +8,10 @@ GCP and OCI step by step tutorial
 
 ### Step 1: Create a VM
 - Go to **Compute Engine** > **VM Instances** > **Create**.
-- Fill in instance name, region (with region closest to you), machine type.
-- Leave defaults unless specified.
+- Fill in instance name using lower cases letters, example: ahi-tester
+- Region & Zone: Choose a location closest to you
+- Machine type: Leave as default (e2-micro)
+- Leave defaults unless specified
 
 ![GCP Create Image]
 
