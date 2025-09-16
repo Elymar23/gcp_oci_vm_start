@@ -11,7 +11,7 @@ GCP and OCI step by step tutorial
 - Fill in instance name, region (with region closest to you), machine type.
 - Leave defaults unless specified.
 
-![GCP Create Form](images/gcp_create.png)
+![GCP Create Form](Create)
 
 ### Step 2: Running Instance
 - After clicking **Create**, wait until status is **Running**.
