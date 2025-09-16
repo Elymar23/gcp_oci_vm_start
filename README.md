@@ -11,22 +11,21 @@ GCP and OCI step by step tutorial
 - Fill in instance name, region (with region closest to you), machine type.
 - Leave defaults unless specified.
 
-![GCP Create Form](Create)
+![GCP Create Image]
 
 ### Step 2: Running Instance
 - After clicking **Create**, wait until status is **Running**.
 
-![GCP Running Instance](images/gcp_running.png)
+![GCP Running Instance]
 
 ### Step 3: Terminate VM
 - Select the VM.
 - Click **Delete**.
 
-![GCP Terminated](images/gcp_terminated.png)
+![GCP Terminated]
 
-⚠️ *Pitfall:* Don’t forget to delete the VM — leaving it running may cost credits.
+*Pitfall:* Don’t forget to delete the VM — leaving it running may cost money.
 
----
 
 ## Part 2: Oracle Cloud Infrastructure (OCI)
 
@@ -34,17 +33,15 @@ GCP and OCI step by step tutorial
 - Go to **Compute** > **Instances** > **Create Instance**.
 - Select image and shape.
 
-![OCI Create Form](images/oci_create.png)
+![OCI Create Image]
 
 ### Step 2: Running Instance
 - Wait until instance state is **Running**.
 
-![OCI Running](images/oci_running.png)
+![OCI Running]
 
 ### Step 3: Terminate VM
 - Select the instance.
 - Click **Terminate**.
 
-![OCI Terminated](images/oci_terminated.png)
-
-⚠️ *Pitfall:* You must select a **public subnet** if you need a public IP.
+![OCI Terminated]
