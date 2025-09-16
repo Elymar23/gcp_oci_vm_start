@@ -4,6 +4,11 @@ GCP and OCI step by step tutorial
 
 **Recording:** [Watch on Loom](https://www.loom.com/share/3083d00be535445b97c2cb42f8e749ec?sid=a3792a61-d27b-4e74-8951-efa0eb55a19b)
 
+## Prereqs
+- Google Cloud Platform (GCP)
+- Oracle Cloud Infrastructure (OCI)
+- Smallest free/tier shapes and images
+
 ## Part 1: Google Cloud Platform (GCP)
 
 ### Step 1: Create a VM
@@ -47,3 +52,8 @@ GCP and OCI step by step tutorial
 - Click **Terminate**.
 
 ![OCI Terminated]
+
+## Reflections
+### Similarities
+-Both require you to choose: which Machine type
+--OS image and Storage
