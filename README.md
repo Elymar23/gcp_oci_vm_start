@@ -32,19 +32,19 @@ GCP and OCI step by step tutorial
 - Click Secure Shell to open a terminal in the browser
 	- From here, you can install software, run scripts, or configure your server just like you would on a physical machine 
 - To uppdate, type in the following in your terminal:
-	- 1. **sudo**(space)**apt-get**(space)**update** (enter)
-    - 2. **python3** (enter)
-    - 3. **exit()** (enter)
-    - 4. **pwd** (enter)
+	 1. **sudo**(space)**apt-get**(space)**update** (enter)
+     2. **python3** (enter)
+     3. **exit()** (enter)
+     4. **pwd** (enter)
 
-### Step 4: Terminate VM
-- Select the VM.
-- Click **Delete**.
+### Step 4: Stop/Terminate VM
+- click on the 3 dots
+- Click **Delete**
+- We do not care about a graceful shutdown, click **Delete**
 
 ![GCP Terminated]
 
 *Pitfall:* Don’t forget to delete the VM — leaving it running may cost money.
-
 
 ## Part 2: Oracle Cloud Infrastructure (OCI)
 
