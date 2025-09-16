@@ -60,8 +60,8 @@ GCP and OCI step by step tutorial
 ### Differences
 Networking setup:
 - GCP has networking pre-configured
+- - GCP assigns public IP 
 - OCI makes you set up VCNs and subnets, which feels more complicated
-- GCP assigns public IP 
 - OCI requires a public subnet
 - GCP lets you access SSH with your Google account directly.
 - OCI requires uploading or generating an SSH key.
