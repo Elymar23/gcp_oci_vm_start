@@ -55,5 +55,5 @@ GCP and OCI step by step tutorial
 
 ## Reflections
 ### Similarities
--Both require you to choose: which Machine type
---OS image and Storage
+- Both require you to choose: which Machine type
+-- OS image and Storage
