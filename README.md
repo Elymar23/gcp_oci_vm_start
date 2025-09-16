@@ -12,20 +12,32 @@ GCP and OCI step by step tutorial
 ## Part 1: Google Cloud Platform (GCP)
 
 ### Step 1: Create a VM
-- Go to **Compute Engine** > **VM Instances** > **Create**.
-- Fill in instance name using lower cases letters, example: ahi-tester
+- Go to **Compute Engine** > **VM Instances** > **Create**
+- Fill in instance name using lower cases letters, example: **ahi-tester**
 - Region & Zone: Choose a location closest to you
 - Machine type: Leave as default (e2-micro)
 - Leave defaults unless specified
+- Click on OS and Storage on the left hand side
+	- change the operating system to **Ubuntu**
+-Click **Create**
 
 ![GCP Create Image]
 
 ### Step 2: Running Instance
-- After clicking **Create**, wait until status is **Running**.
+- After clicking **Create**, wait until status is **Running**
 
 ![GCP Running Instance]
 
-### Step 3: Terminate VM
+### Step 3: SSH Update
+- Click Secure Shell to open a terminal in the browser
+	- From here, you can install software, run scripts, or configure your server just like you would on a physical machine 
+- To uppdate, type in the following in your terminal:
+	- 1. **sudo**(space)**apt-get**(space)**update** (enter)
+    - 2. **python3** (enter)
+    - 3. **exit()** (enter)
+    - 4. **pwd** (enter)
+
+### Step 4: Terminate VM
 - Select the VM.
 - Click **Delete**.
 
