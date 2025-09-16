@@ -56,7 +56,7 @@ GCP and OCI step by step tutorial
 ## Reflections
 ### Similarities
 - Both require you to choose: which Machine type
--- OS image and Storage
+	- OS image and Storage
 ### Differences
 - GCP has networking pre-configured
 - GCP assigns public IP
