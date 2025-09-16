@@ -59,5 +59,5 @@ GCP and OCI step by step tutorial
 -- OS image and Storage
 ### Differences
 ### Preference 
-- I think for  beginners: GCP is easier because of the automatic setup and Google account integration.
+- I think for  beginners: GCP is easier because of the automatic setup and Google account integration,
 	but for someone who wants to have more control, OCI is is a better option.
