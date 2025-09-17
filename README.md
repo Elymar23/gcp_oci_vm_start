@@ -18,7 +18,7 @@ GCP and OCI step by step tutorial
 - Machine type: Leave as default (e2-micro)
 - Leave defaults unless specified
 - Click on OS and Storage on the left hand side
-	- change the operating system to **Ubuntu**
+	- Change the operating system to **Ubuntu**
 -Click **Create**
 
 ![GCP Create Image]
@@ -38,7 +38,7 @@ GCP and OCI step by step tutorial
      4. **pwd** (enter)
 
 ### Step 4: Stop/Terminate VM
-- click on the 3 dots
+- Click on the 3 dots
 - Click **Delete**
 - We do not care about a graceful shutdown, click **Delete**
 
@@ -49,8 +49,20 @@ GCP and OCI step by step tutorial
 ## Part 2: Oracle Cloud Infrastructure (OCI)
 
 ### Step 1: Create a VM
-- Go to **Compute** > **Instances** > **Create Instance**.
-- Select image and shape.
+- Go to **Compute** > **Instances** > **Create Instance**
+- Configure the VM
+	- Change name to **lab- compartment**
+ - 		Image and choose Ubuntu
+
+For shape change ti ampere and select A1. flex
+
+5. for Networking click create new virtual cloud network and it automatically chooses create new public subnet 
+
+6. SSH Keys is optional so I’ll leave it as generate a key pair for me. 
+
+7. Click Create.
+
+• Wait until status is “Running.”
 
 ![OCI Create Image]
 
