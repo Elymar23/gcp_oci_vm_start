@@ -52,28 +52,23 @@ GCP and OCI step by step tutorial
 - Go to **Compute** > **Instances** > **Create Instance**
 - Configure the VM
 	- Change name to **lab- compartment**
- - 		Image and choose Ubuntu
-
-For shape change ti ampere and select A1. flex
-
-5. for Networking click create new virtual cloud network and it automatically chooses create new public subnet 
-
-6. SSH Keys is optional so I’ll leave it as generate a key pair for me. 
-
-7. Click Create.
-
-• Wait until status is “Running.”
+ 	- Select Image and choose **Ubuntu**
+	- Select shape and change to **Ampere** and select **A1. flex**
+	- Under **Networking** click create new virtual cloud network and it automatically chooses create new public subnet
+	- SSH Keys is optional, leave as default and it will generate a key pair
+	- Click **Create**
 
 ![OCI Create Image]
 
 ### Step 2: Running Instance
-- Wait until instance state is **Running**.
+- Wait until instance state is **Running**
 
 ![OCI Running]
 
-### Step 3: Terminate VM
-- Select the instance.
-- Click **Terminate**.
+### Step 3: Stop/ Terminate VM
+- Select the instance
+- Click **Terminate** with **Delete the boot volume checked**
+- Cleanup check. Confirm no instances, boot volumes, or public IPs remain.
 
 ![OCI Terminated]
 
