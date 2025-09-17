@@ -22,12 +22,12 @@ GCP and OCI step by step tutorial
 	- Change the operating system to **Ubuntu**
 -Click **Create**
 
-![GCP VM running](images/gcp_create.png)
+![GCP VM create](images/gcp_create.png)
 
 ### Step 2: Running Instance
 - After clicking **Create**, wait until status is **Running**
 
-![GCP Running Instance]
+![GCP running](images/gcp_running.png)
 
 ### Step 3: SSH Update
 - Click Secure Shell to open a terminal in the browser
@@ -43,7 +43,7 @@ GCP and OCI step by step tutorial
 - Click **Delete**
 - We do not care about a graceful shutdown, click **Delete**
 
-![GCP Terminated]
+![GCP terminated VM](images/gcp_terminated.png)
 
 *Pitfall:* Don’t forget to delete the VM — leaving it running may cost money.
 
@@ -59,19 +59,20 @@ GCP and OCI step by step tutorial
 	- SSH Keys is optional, leave as default and it will generate a key pair
 	- Click **Create**
 
-![OCI Create Image]
+![OCI create](images/oci_create.png)
 
 ### Step 2: Running Instance
 - Wait until instance state is **Running**
 
-![OCI Running]
+![OCI running](images/oci_running.png)
+
 
 ### Step 3: Stop/ Terminate VM
 - Select the instance
 - Click **Terminate** with **Delete the boot volume checked**
 - Cleanup check. Confirm no instances, boot volumes, or public IPs remain.
 
-![OCI Terminated]
+![OCI terminated](images/oci_terminated.png)
 
 ## Reflections
 ### Similarities
