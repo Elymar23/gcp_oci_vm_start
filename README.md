@@ -15,13 +15,14 @@ GCP and OCI step by step tutorial
 - Go to **Compute Engine** > **VM Instances** > **Create**
 - Fill in instance name using lower case letters, example: **ahi-tester**
 - Region & Zone: Choose a location closest to you
-- Machine type: Leave as default (e2-micro)
+- Machine type: Leave as default
+   - Select (e2-micro)
 - Leave defaults unless specified
 - Click on OS and Storage on the left hand side
 	- Change the operating system to **Ubuntu**
 -Click **Create**
 
-![GCP Create Image]
+![GCP VM running](images/gcp_create.png)
 
 ### Step 2: Running Instance
 - After clicking **Create**, wait until status is **Running**
