@@ -13,7 +13,7 @@ GCP and OCI step by step tutorial
 
 ### Step 1: Create a VM
 - Go to **Compute Engine** > **VM Instances** > **Create**
-- Fill in instance name using lower cases letters, example: **ahi-tester**
+- Fill in instance name using lower case letters, example: **ahi-tester**
 - Region & Zone: Choose a location closest to you
 - Machine type: Leave as default (e2-micro)
 - Leave defaults unless specified
