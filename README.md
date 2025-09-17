@@ -1,6 +1,6 @@
 # gcp_oci_vm_start
 GCP and OCI step by step tutorial
-# Vitual Machine Tutorial: GCP & OCI
+# Virtual Machine Tutorial: GCP & OCI
 
 **Recording:** [Watch on Loom](https://www.loom.com/share/3083d00be535445b97c2cb42f8e749ec?sid=a3792a61-d27b-4e74-8951-efa0eb55a19b)
 
