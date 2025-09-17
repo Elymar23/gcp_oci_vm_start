@@ -69,7 +69,7 @@ GCP and OCI step by step tutorial
 
 ### Step 3: Stop/ Terminate VM
 - Select the instance
-- Click **Terminate** with **Delete the boot volume checked**
+- Click **Actions** > **Terminate** > **Delete the boot volume checked**
 - Cleanup check. Confirm no instances, boot volumes, or public IPs remain.
 
 ![OCI terminated](images/oci_terminated.png)
