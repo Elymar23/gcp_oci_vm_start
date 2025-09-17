@@ -22,7 +22,7 @@ GCP and OCI step by step tutorial
 	- Change the operating system to **Ubuntu**
 -Click **Create**
 
-![GCP Create](images/gcp_create.png)
+![GCP Create](images/GCP-%20Create%20Instance.png)
 
 ### Step 2: Running Instance
 - After clicking **Create**, wait until status is **Running**
