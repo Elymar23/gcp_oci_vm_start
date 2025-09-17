@@ -22,7 +22,7 @@ GCP and OCI step by step tutorial
 	- Change the operating system to **Ubuntu**
 -Click **Create**
 
-![GCP VM create](<img width="1440" height="900" alt="GCP- Create Instance" src="https://github.com/user-attachments/assets/6d03502b-d141-4d77-bf84-cf383f0e2f0f" />)
+![GCP VM create](images/GCP-CreateInstance.png)
 
 
 ### Step 2: Running Instance
