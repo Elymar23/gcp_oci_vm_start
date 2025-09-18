@@ -43,7 +43,7 @@ GCP and OCI step by step tutorial
 - Click **Delete**
 - We do not care about a graceful shutdown, click **Delete**
 
-[GCP VM create form](images/gcp_create.png)
+[GCP terminated](images/gcp_terminated.png)
 
 *Pitfall:* Don’t forget to delete the VM — leaving it running may cost money.
 
